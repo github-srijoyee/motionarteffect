@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-gradient {
+  background: linear-gradient(90deg, rgba(248,117,22,1) 0%, rgba(248,117,22,1) 1%, rgba(240,112,34,1) 5%, rgba(224,101,57,1) 9%, rgba(224,101,57,1) 16%, rgba(194,82,105,1) 20%, rgba(161,61,154,1) 23%, rgba(157,58,159,1) 26%, rgba(148,52,174,1) 38%, rgba(131,41,198,1) 44%, rgba(108,26,234,1) 69%, rgba(108,26,234,1) 71%, rgba(94,17,255,1) 73%, rgba(94,17,255,1) 90%, rgba(94,17,255,1) 94%, rgba(94,17,255,1) 96%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  text-fill-color: transparent; /* For Safari */
+}
+.bg-gradientog{
+  background: linear-gradient(90deg, rgba(248,117,22,1) 0%, rgba(248,117,22,1) 1%, rgba(240,112,34,1) 5%, rgba(224,101,57,1) 9%, rgba(224,101,57,1) 16%, rgba(194,82,105,1) 20%, rgba(161,61,154,1) 23%, rgba(157,58,159,1) 26%, rgba(148,52,174,1) 38%, rgba(131,41,198,1) 44%, rgba(108,26,234,1) 69%, rgba(108,26,234,1) 71%, rgba(94,17,255,1) 73%, rgba(94,17,255,1) 90%, rgba(94,17,255,1) 94%, rgba(94,17,255,1) 96%);
+}
+.bg-gradient1 {
+  background: linear-gradient(90deg, rgba(94,17,255,1) 0%, rgba(94,17,255,1) 4%, rgba(94,17,255,1) 6%, rgba(94,17,255,1) 10%, rgba(108,26,234,1) 27%, rgba(108,26,234,1) 31%, rgba(131,41,198,1) 56%, rgba(148,52,174,1) 62%, rgba(157,58,159,1) 74%, rgba(161,61,154,1) 77%, rgba(194,82,105,1) 80%, rgba(224,101,57,1) 84%, rgba(224,101,57,1) 91%, rgba(240,112,34,1) 95%, rgba(248,117,22,1) 99%);
+}
+.bg-gradient2{
+  background: rgb(37,30,53);
+background: linear-gradient(0deg, rgba(37,30,53,1) 0%, rgba(31,24,48,1) 33%, rgba(27,20,44,1) 57%, rgba(14,7,32,1) 100%);
+}
+.bg-gradient3{
+  background: rgb(25,18,42);
+background: linear-gradient(0deg, rgba(25,18,42,1) 0%, rgba(21,14,39,1) 100%);
+}
+.bg-gradient4{
+  background: rgb(30,23,47);
+background: linear-gradient(0deg, rgba(30,23,47,1) 0%, rgba(28,21,45,1) 100%);
+}
+.bg-gradient5{
+  background: rgb(35,28,52);
+background: linear-gradient(0deg, rgba(35,28,52,1) 0%, rgba(33,26,49,1) 100%);
+}
+.bg-gradient6{
+  background: rgb(30,23,47);
+background: linear-gradient(0deg, rgba(30,23,47,1) 0%, rgba(19,12,36,1) 100%);
+}
+.bg-gradient7{
+  background: rgb(33,26,49);
+  background: linear-gradient(0deg, rgba(33,26,49,1) 0%, rgba(32,25,49,1) 100%);
+}
+.bg-gradient8{
+  background: rgb(34,27,51);
+  background: linear-gradient(0deg, rgba(34,27,51,1) 0%, rgba(33,26,50,1) 100%);
+}
+.bg-gradient9{
+  background: rgb(248,117,22);
+  background: linear-gradient(90deg, rgba(248,117,22,1) 0%, rgba(226,102,54,1) 31%, rgba(210,92,78,1) 67%, rgba(158,59,157,1) 100%);
+}
+.bg-gradient10{
+  background: rgb(242,113,32);
+  background: linear-gradient(105deg, rgba(242,113,32,1) 0%, rgba(173,69,136,1) 60%, rgba(150,54,171,1) 100%);
+}
+.bg-gradient11{
+  background: rgb(146,51,178);
+background: linear-gradient(105deg, rgba(146,51,178,1) 0%, rgba(127,38,206,1) 100%);
+}
+/* src/index.css */
+.cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+  mix-blend-mode: screen;
+  opacity: 0.8;
+  z-index: 9999;
+}
+
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.a-title {
+  position: absolute;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: conic-gradient(#ed0101, blue);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.a-second-title {
+  position: absolute;
+  margin-top: 25vh;
+  pointer-events: none;
+  -webkit-text-stroke: 1.3px white;
+  letter-spacing: 1.125px;
+  font-size: -webkit-xxx-large;
+  font-weight: 900;
+  mix-blend-mode: color-dodge;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}

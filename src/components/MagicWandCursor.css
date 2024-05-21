@@ -1,0 +1,29 @@
+.magic-wand-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px; /* Increased size */
+    height: 40px; /* Increased size */
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 999;
+  }
+  
+  .sparkle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .sparkle {
+    position: absolute;
+    width: 10px; /* Increased size */
+    height: 10px; /* Increased size */
+    background-color: white; /* Default color */
+    border-radius: 50%;
+    opacity: 0;
+    mix-blend-mode: screen;
+  }
+  
+  
