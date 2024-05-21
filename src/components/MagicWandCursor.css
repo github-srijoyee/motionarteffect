@@ -2,8 +2,6 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 40px; /* Increased size */
-    height: 40px; /* Increased size */
     pointer-events: none;
     mix-blend-mode: difference;
     z-index: 999;
@@ -18,8 +16,8 @@
   
   .sparkle {
     position: absolute;
-    width: 10px; /* Increased size */
-    height: 10px; /* Increased size */
+    width: 40px; /* Increased size */
+    height: 40px; /* Increased size */
     background-color: white; /* Default color */
     border-radius: 50%;
     opacity: 0;
